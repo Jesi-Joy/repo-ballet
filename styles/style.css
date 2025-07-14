@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* estilado del header */
+.navbar {
+    margin: 5px 10px;
+    padding: 15px 20px;
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    flex-direction: row;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.navbar ul {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.titulos {
+    border: 1px solid pink;
+    text-align: center;
+    margin: 10px 10px 0px 10px;
+    padding: 5px;
+    font-size: 32px;
+    font: bold;
+}
+
+/* SECCION INICIO */
+.card-container {
+    margin: 16px;
+    text-align: center;
+}
+
+.lema {
+    font-family: "Edu QLD Hand", cursive;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    font-size: 24px;
+    font-style: oblique;
+}
+
+/* FOOTER */
+.p-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 50px;
+    background-color: gray;
+    margin: 15px 10px;
+    padding: 15px 20px;
+    color: white;
+}
+
+.p-footer li {
+    list-style: none;
+}
+
+.p-footer h1 {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.p-footer h2 {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.p-footer p {
+    margin: 0px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.copy-footer {
+    text-align: center;
+    font-size: 12px;
+    color: black
+}
+
+/* SECCION QUIENES SOMOS */
+.s-container {
+    margin: 16px;
+    text-align: center;
+}
+
+.parrafo-somos {
+    font-family: "Edu VIC WA NT Hand Pre", cursive;
+    margin: 30px 200px;
+    padding: 5px;
+}
+
+/* CLASES */
+.clases {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.opciones-clases {
+    padding: 5px;
+    border: 1px solid pink;
+    border-radius: 5px;
+    width: 300px;
+    background-color: rgb(238, 220, 223);
+}
+
+.opciones-clases h2 {
+    font-size: 28px;
+    font: bold;
+    margin: 15px;
+    padding: 5px;
+}
+
+.opciones-clases h3 {
+    font-size: 28px;
+    font: bold;
+    margin: 15px;
+    padding: 5px;
+}
+
+.opciones-clases h4 {
+    font-size: 28px;
+    font: bold;
+    margin: 15px;
+    padding: 5px;
+}
+
+.opciones-clases h5 {
+    font-size: 28px;
+    font: bold;
+    margin: 15px;
+    padding: 5px;
+}
+
+.clases p {
+    margin: 15px;
+    padding: 5px;
+    height: auto;
+    font-size: 20px;
+}
+
+/* HORARIOS */
+.h-container {
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+} 
+
+/* CONTACTO */
+.contact-container {
+    border: 2px solid pink;
+    border-radius: 5px;
+    width: 360px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.mensaje-titulo {
+    margin: 25px;
+    padding: 5px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.mensaje-caja h1 {
+    margin: 5px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.mensaje-caja h2 {
+    margin: 5px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.mensaje-caja h3 {
+    margin: 5px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.mensaje-caja h4 {
+    margin: 5px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.mensaje-caja h5 {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(209, 209, 209);
+}
+
+.mensaje-caja h5:hover {
+    background-color: pink;
+}
