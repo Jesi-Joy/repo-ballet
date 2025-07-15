@@ -4,7 +4,7 @@
 }
 
 /* estilado del header */
-.navbar {
+.mi-navbar {
     margin: 5px 10px;
     padding: 15px 20px;
     background-color: pink;
@@ -12,12 +12,18 @@
     justify-content: space-between;
     align-items: end;
     flex-direction: row;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.logo {
+.navbar-brand {
     width: 100px;
     height: auto;
 }
+
+.navbar-toggler {
+    border: none;
+}
+
 
 .navbar ul {
     justify-content: center;
@@ -30,7 +36,14 @@
     list-style: none;
 }
 
-.link {
+.nav-link {
+    color: black;
+    font-weight: 50px;
+    padding: 1px 2px;
+    transition: color 0.3s ease;
+}
+
+.nav-link active {
     text-decoration: none;
     color: black;
     font-size: 20px;
@@ -180,13 +193,16 @@
 .contact-container {
     border: 2px solid pink;
     border-radius: 5px;
+    height: 100%;
     width: 360px;
     margin: 5px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 20px;
+    align-items: center;
+    background-color: beige;
 }
 
 .mensaje-titulo {
@@ -200,24 +216,36 @@
     margin: 5px;
     padding: 5px;
     font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
 }
 
 .mensaje-caja h2 {
     margin: 5px;
     padding: 5px;
     font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
 }
 
 .mensaje-caja h3 {
     margin: 5px;
     padding: 5px;
     font-size: 18px;
+    display: flex;
+    flex-direction: column;
 }
 
 .mensaje-caja h4 {
     margin: 5px;
     padding: 5px;
     font-size: 18px;
+    display: flex;
+    flex-direction: column;
 }
 
 .mensaje-caja h5 {

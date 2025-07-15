@@ -11,44 +11,55 @@
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <img class="logo" src="../assets/Logo_Ballet_en_Rosa.png" alt="" class="logo">
-            <UL>
-                <li>
-                    <a class="link" href="#">INICIO</a>
-                </li>
-                <li>
-                    <a class="link" href="./quienes-somos.html">QUIENES SOMOS</a>
-                </li>
-                <li>
-                    <a class="link" href="./nuestras-clases.html">NUESTRAS CLASES</a>
-                </li>
-                <li>
-                    <a class="link" href="./horarios.html">HORARIOS</a>
-                </li>
-                <li>
-                    <a class="link" href="./contacto.html">CONTACTO</a>
-                </li>
-            </UL>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <img class="navbar-brand" src="../assets/Logo_Ballet_en_Rosa.png" alt="">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>                           
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="./quienes-somos.html">QUIENES SOMOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./sections/nuestras-clases.html">NUESTRAS CLASES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./horarios.html">HORARIOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
         </nav>
     </header>
 
     <main>
         <h1 class="titulos">NUESTRAS CLASES</h1>
-        <section class="container-fluid">
-        <div class="row">
-            <h2 class="col-2 opciones-clases">Ballet</h2>
+        <section class="clases">
+        <div class="opciones-clases">
+            <h2>Ballet</h2>
             <p>La base de todo. El ballet desarrolla coordinación, fuerza, elongación y disciplina a través de una técnica refinada y poética. Nuestras clases están pensadas para acompañar cada etapa: desde el descubrimiento lúdico del movimiento en las infancias hasta el entrenamiento profundo de jóvenes y adultos.</p>
         </div>
-        <div class="row">
-            <h3 class="col-1 opciones-clases">Lyrical</h3>
+        <div class="opciones-clases">
+            <h3>Lyrical</h3>
             <p>Una fusión de ballet, danza contemporánea y expresión emocional. El lyrical invita a contar historias con el cuerpo, conectar con la música y explorar una danza más libre, fluida y personal. Ideal para quienes buscan sensibilidad y técnica en equilibrio.</p>
         </div>
-        <div class="col-12 opciones-clases">
+        <div class="opciones-clases">
             <h4>Barre à Térre</h4>
             <p>Una clase que se trabaja en el suelo, ideal para mejorar la postura, fortalecer la musculatura profunda y ganar conciencia corporal sin impacto. Inspirada en los fundamentos del ballet, es un complemento perfecto para bailarines y una práctica excelente para cualquier persona que quiera habitar su cuerpo con elegancia y fuerza.</p>
         </div>
-        <div class="col-6 opciones-clases">
+        <div class="opciones-clases">
             <h5>Tango</h5>
             <p>La danza que nace del abrazo. En nuestras clases de tango para adultos exploramos el lenguaje del cuerpo en conexión, la musicalidad y el diálogo entre quienes bailan. Una propuesta para aprender desde la escucha, el juego y la emoción del movimiento compartido.</p>
         </div>
